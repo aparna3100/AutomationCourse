@@ -31,7 +31,6 @@ public WebDriver driver;
 	public void navigate() {
 		  driver.navigate().to("https://www.myntra.com/");
 		  driver.navigate().back();
-		 // driver.navigate().forward();
 		  driver.navigate().refresh();
 		 }
 
